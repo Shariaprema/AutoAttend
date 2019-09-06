@@ -1,12 +1,11 @@
 <?php require('inc/checklogin.php'); ?>
 <?php require('inc/connect.php'); ?>
-<?php require('inc/function.php');?>
+<?php require('inc/functions.php');?>
 
 <?php
 $page_title = "Application Form";
 ?>
 <?php require('layout/header.php'); ?>
-
 
 
 <form action="create_user.php" method="POST">

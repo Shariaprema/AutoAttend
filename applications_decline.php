@@ -1,6 +1,6 @@
 <?php require('inc/checklogin.php'); ?>
 <?php require('inc/connect.php'); ?>
-<?php require('inc/function.php');?>
+<?php require('inc/functions.php');?>
 
 <?php
 admin_only();

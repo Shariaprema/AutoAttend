@@ -47,11 +47,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/dashboard/pending.php">
+            <a class="nav-link" href="/dashboard/applications_pending.php">
               <span data-feather="shopping-cart"></span>
               Leave Application
             </a>
           </li>
         </ul>
+      <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
       </div>
     </nav>

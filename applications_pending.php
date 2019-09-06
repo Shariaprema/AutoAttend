@@ -1,11 +1,10 @@
 <?php require('inc/checklogin.php'); ?>
 <?php require('inc/connect.php'); ?>
-<?php require('inc/function.php');?>
+<?php require('inc/functions.php');?>
 
 <?php
 admin_only();
 $page_title = "Leave Applications";
-
 ?>
 
 <?php require('layout/header.php'); ?>
@@ -29,7 +28,9 @@ if ($result->num_rows > 0) {
     	echo '<td>' . $row["date_end"] . '</td>';
     	echo '<td>' . $row["description"] . '</td>';
         echo '<td> <a href="Approve.php?user_id='.$row["id"].'button type="button" class="btn btn-success">Approve</button></a></td>';
+
         echo '<td> <a href="decline.php?user_id='.$row["id"].'button type="button" class="btn btn-danger">Decline</button></a></td>';
+        
     	echo '</tr>';
 
     }
