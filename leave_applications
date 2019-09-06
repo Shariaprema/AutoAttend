@@ -1,0 +1,8 @@
+<?php require('inc/checklogin.php'); ?>
+<?php require('inc/connect.php'); ?>
+<?php require('inc/functions.php'); ?>
+
+<?php
+admin_only();
+$page_title = "leave_applications";
+?>
